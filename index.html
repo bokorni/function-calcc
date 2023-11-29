@@ -1,13 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bokorni JIFC 2024</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <input type="text" name="Adição" id="btnsoma">
-    <input type="button" value="Botão 1" id="btn1" onclick="clq1()">
-    <input type="button" value="Botão 2" id="btn2">
+    <select name="idioma" id="idioma">
+        <option value="br" selected='selected'>Portugues[Brasil]</option>
+        <option value="es">Español</option>
+        <option value="en">English</option>
+        <option value="fr">Français</option>
+    </select>
+    <div class="calculadora">
+        <h1 id="titulo">Calculadora</h1>
+        <input type="text" name="valor 1" id="valor-1">
+        <p>+</p>
+        <input type="text" name="valor 2" id="valor-2">
+        <p id="resul"></p>
+        <br>
+        <input type="button" value="Adição" id="btSoma">
+        <input type="button" value="Subtração" id="btSubtração">
+        <input type="button" value="Multiplicação" id="btMultiplicação">
+        <input type="button" value="Divisão" id="btDivisão">
+        <input type="button" value="Limpar" id="reset">
+        <script type="text/javascript" src="script.js"></script>
+        
+    </div>
 </body>
+
 </html>
